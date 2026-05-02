@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {  Mail, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 
 function GithubIcon({ className }: { className?: string }) {
   return (
@@ -146,9 +146,9 @@ export function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 bg-card rounded-xl border border-border hover:border-accent/30 transition-colors group"
             >
-              //<div className="p-3 bg-[#0077b5]/10 rounded-lg">
-                // <Linkedin className="w-5 h-5 text-[#0077b5]" />
-              //</div>
+              <div className="p-3 bg-[#0077b5]/10 rounded-lg">
+                L
+              </div>
               <div>
                 <span className="text-xs text-muted-foreground uppercase tracking-wider">
                   LinkedIn

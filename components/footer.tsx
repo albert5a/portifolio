@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, Mail } from "lucide-react";
+import {  Mail } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -34,7 +34,7 @@ export function Footer() {
               className="p-2 text-muted-foreground hover:text-accent transition-colors"
               aria-label="GitHub"
             >
-              <Github className="w-5 h-5" />
+              G
             </a>
             <a
               href="https://linkedin.com/in/albertsoares"
@@ -43,7 +43,7 @@ export function Footer() {
               className="p-2 text-muted-foreground hover:text-accent transition-colors"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5" />
+              L
             </a>
           </div>
         </div>
