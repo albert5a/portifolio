@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Gamepad2, Mountain, Music, Skateboard } from "lucide-react";
+import { Gamepad2, Mountain, Music } from "lucide-react";
 
 const hobbies = [
   {
@@ -10,13 +10,6 @@ const hobbies = [
     description:
       "Arte marcial brasileira que combina luta, dança, acrobacia e música. Uma forma de expressão cultural que pratico com dedicação.",
     color: "accent",
-  },
-  {
-    icon: Skateboard,
-    title: "Skate",
-    description:
-      "Liberdade sobre rodas. O skate me ensina persistência, criatividade e a importância de se levantar após cada queda.",
-    color: "highlight",
   },
   {
     icon: Gamepad2,

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Sparkles } from "lucide-react";
+import { ExternalLink, Sparkles } from "lucide-react";
 
 const projects = [
   {
@@ -120,7 +120,7 @@ export function Projects() {
                     className="p-2.5 border border-border rounded-full hover:border-accent/50 hover:text-accent transition-colors"
                     aria-label="Ver código no GitHub"
                   >
-                    <Github className="w-4 h-4" />
+                    G
                   </button>
                   <button
                     className="p-2.5 border border-border rounded-full hover:border-accent/50 hover:text-accent transition-colors"
